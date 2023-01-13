@@ -29,7 +29,7 @@ cuda==11, torch==1.9.0, torchvision==0.10.0, python==3.7.3
 Download [NIH](https://nihcc.app.box.com/v/ChestXray-NIHCC/folder/36938765345).
 Download [CheXpert](https://stanfordmlgroup.github.io/competitions/chexpert/).
 
-5. Train
+4. Train the model.
 ```sh
 python main.py \
 --dataset_dir '/path/to/data/' \
